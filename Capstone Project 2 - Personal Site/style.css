@@ -1,0 +1,77 @@
+body {
+    width: 100vw;
+    background-color: beige;
+}
+.my_character{
+    background-color: gray;
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+}
+
+hr{
+    border-top: 5px dotted #fd8b21;
+    width: 20%;
+}
+
+h1{
+    font-size: 54px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(238, 135, 0)
+}
+
+h2, h3, p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+}
+
+button{
+    background-color: rgb(255, 207, 130);
+    border: none;
+    color: rgb(153, 75, 3);
+    padding: 12px 8px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.grid-container{
+    display: grid;
+    width: 75vw;
+    column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card{
+    background-color: rgb(243, 195, 64);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.journey{
+    width: 30vw;
+    padding: 0 0 24px 0;
+}
+ 
+.bottom-container{
+    text-align: center;
+    padding: 64px;
+    margin-top: 24px;
+    background-color: #fd8b21;
+}
+
+.footer-link{
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 12px 12px 0;
+    color: rgb(92, 92, 92);
+}
+div{
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+This is 2nd capstone project from the Udemy HTML and CSS bootcamp.
+Objective is to create a personal site that tells variety of stuffs about me. 
+I designed this page to have 4 sections. 
+-Header (hero section)
+-My journey which list out my education and professional experiences 
+-My skills 
+-Footer
+
+I tried to use most of HTML and CSS skills I learned from the previouls lectures. 
+This includes CSS grid, flex box, text alignment, etc.
+Unfortunately I didn't spend time for responsiveness because it is too much to worry about for given time. 
